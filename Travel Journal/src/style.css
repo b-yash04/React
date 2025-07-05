@@ -3,21 +3,59 @@
     margin: 0;
     padding: 0;
 }
-body{
-    height: 100vh;
-    width: 100vw;
+html, #root,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Inter;
 }
 .navbar{
     background-color: #F55A5A;
-    height: 12vh;
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     font-family: Inter;
 }
-img{
+.globe{
     width:55px;
     height: 55px;
     border-radius: 50%;
+}
+.content{
+    height: 88%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.places{
+    height: 33%;
+    width: 80%;
+    border-bottom: 2px solid;
+    border-color: lightgray;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+.GF{
+    border-bottom: 0px;
+}
+
+.places img{
+    height:80% ;
+    width: 200px ;
+    border-radius: 5%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+span{
+    color: gray;
+    text-decoration: underline;
 }
