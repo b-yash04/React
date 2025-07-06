@@ -31,19 +31,18 @@ html, #root,body{
     align-items: center;
 }
 .places{
-    height: 33%;
+    height: 100%;
     width: 80%;
     border-bottom: 2px solid;
     border-color: lightgray;
     display: flex;
+    flex-direction: column;
     gap: 40px;
     align-items: center;
     justify-content: center;
 
 }
-.GF{
-    border-bottom: 0px;
-}
+
 
 .places img{
     height:80% ;
@@ -55,7 +54,16 @@ html, #root,body{
     flex-direction: column;
     gap: 10px;
 }
-span{
+.span{
     color: gray;
     text-decoration: underline;
+}
+.inner{
+    display: flex;
+    gap: 60px;
+    height :33%;
+    margin-top: 30px;
+}
+.dd{
+    height: 100%;
 }
